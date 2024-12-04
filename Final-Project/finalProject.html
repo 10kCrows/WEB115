@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WEB-115 Final Project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="projectJS.js" defer></script>
+</head>
+<body>
+    <!-- Header section for banner -->
+    <header>
+        <div class="banner">
+            <img src="banner.png" alt="Build Your Meal Plan Logo">
+        </div>
+    </header>
+
+    <!-- Form for user inputs -->
+    <form>
+        <div class="main-container">
+            <!-- Weekday Meal Choices -->
+            <div id="days-container"></div>
+
+            <!-- Personal Info Section -->
+            <div class="personal-info">
+                <h1>Personal Information</h1>
+                <label for="name">Name:
+                    <input id="name" type="text">
+                </label>
+                <br><br>
+                <label for="email">Email:
+                    <input id="email" type="email" required>
+                </label>
+                <br><br>
+                <label for="goals">What are your personal health goals for this week?<br><br>
+                    <textarea id="goals" rows="20" cols="50" placeholder="My personal health goals for this week are..."></textarea>
+                </label>
+                <br><br>
+
+                <!-- Buttons -->
+                <button type="submit">Submit</button>
+                <button type="button" id="clear-btn">Clear Planner</button>
+            </div>
+        </div>
+    </form>
+
+    <br>
+
+
+</body>
+
+</html>
